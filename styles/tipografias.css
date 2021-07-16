@@ -1,0 +1,14 @@
+/* Tipografía */
+
+h1 {
+    font-family: system-ui;
+    color: #000000;
+}
+
+h1.centrado {
+    text-align: center;
+}
+
+p {
+    font-family: Georgia, serif;
+}

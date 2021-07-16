@@ -1,0 +1,35 @@
+/* Imagenes */
+
+.imagen {
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    width:  100vw;
+    /* Eje X*/
+    justify-content: center;
+    /* Eje Y*/
+    align-items: center;
+    display: flex;
+}
+
+.imagen.colores {
+    background-image: url("../resources/imagenes/fondo-colores.jpg");
+}
+
+.imagen.carretera {
+    background-image: url("../resources/imagenes/fondo-carretera.jpg");
+}
+
+.imagen.repeat {
+    background-image: url("../resources/imagenes/fondo-repeat.jpg");
+    background-repeat: no-repeat;
+}
+
+/* Opcional */
+/*
+h1 {
+    border:  solid 2px #ffffff;
+    padding: 10px;
+    color: #ffffff;
+}
+*/
